@@ -1,0 +1,16 @@
+.new-players{
+    margin: 20px;
+}
+.selected-players{
+    color:rebeccapurple;
+    font-size: 30px;
+    box-shadow: 5px 5px 10px rebeccapurple;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.new-players p{
+    font-size: 20px;
+    color:rgb(51, 43, 119);
+    font-weight: 700;
+}

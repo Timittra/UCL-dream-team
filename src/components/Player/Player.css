@@ -1,0 +1,18 @@
+.player-container{
+    display: flex;
+}
+.profile-container{
+    width: 70%;
+    margin-left: 200px;
+}
+
+.team-container{
+    height: 550px;
+    width: 500px;
+    background-color: rgb(243, 191, 199);
+    border-radius: 15%;
+    margin-right: 250px;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 8px 8px 16px palevioletred;
+}

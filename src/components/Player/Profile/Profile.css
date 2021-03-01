@@ -1,0 +1,52 @@
+.profile{
+    height: 580px;
+    width: 350px;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 20px;
+    background-color: lavenderblush;
+    box-shadow: 5px 5px 10px gray;
+}
+.profile img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transform: translate(-10px, 12px);
+}
+.profile:hover img{
+    transform: translate(0, 0);
+    box-shadow: 8px 8px 16px lightcoral;
+}
+
+.card-part{
+    border-radius: 10%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 8px 8px 16px gray;
+
+}
+.add-btn {
+    margin-top: 10px;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid transparent;
+    background: #634297;
+    transition: .2s linear;
+}
+.add-btn:hover {
+    color: #721bfd;
+    background: #fff;
+    border: 1px solid #721bfd;
+    transform: translateY(-2px);
+    box-shadow: 3px 3px 10px 0 #4500b462;
+}
+
+.add-btn.disabled{
+    pointer-events: none;
+    background: #a36aff;
+}
